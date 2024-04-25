@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+         <head>
+            
+                <link rel="stylesheet" href="css files/CASHIER.css">
+                <title>Arra J RestoBar Studio</title>
+			   <link rel="icon" type="image/png" href="image/Logo.png">
+			   
+                
+		 </head>
+		 
+		
+		 <body >
+		 <script>function openNav() {
+				  document.getElementById("mySidenav").style.width = "250px";
+				}
+
+				function closeNav() {
+				  document.getElementById("mySidenav").style.width = "0";
+				}
+				function closeNav() {
+				  document.getElementById("cashier.js").style.width = "0";
+				}
+		 </script>
+		 <!-- Responsive Side Menu -->
+		<div class="open-menu-btn" onclick="openNav()">&#9776; </div>
+		<div id="mySidenav" class="sidenav">
+			<a href="javascript:void(0)" class="closebtn"  onclick="closeNav()">&times;</a>
+			<a href="MY HOMEPAGE.html">HOME</a>
+			<a href="ABOUT.html">ABOUT</a>
+			<a href="MENU.html">MENU</a>
+			<a href="CONTACT.html">CONTACT</a>
+			<a href="EVENT.html">EVENT</a>
+			<a href="Log in Form.html">SIGN-OUT</a>
+		</div>
+			 <header>
+				<nav>
+					<ul>
+					<li><a href="MY HOMEPAGE.html" style="float: left; margin-left:30px;">HOME</a></li>                         
+					<li><a href="ABOUT.html" style="float: left; margin-left:20px;">ABOUT</a></li>
+						<img src="image/Logo.png" alt="Arra J Logo" id="Logo">
+					<li><a style="float: center; margin-left:-50px;">Arra J Restobar Studio</a></li>
+				
+					</ul>
+				</nav>
+				<div class="shopping-cart"><a href="Virtual Cashier.html">&#128722;</a></div>
+				
+			</header>
+        <div class="box">
+            <h1><center>Choose Your Order Here!</center></h1><br/><hr class="line"/>
+            <div class="menu">
+				<div class="firstItem">
+                    <div class="menu1">
+                        <span class="menu1">
+                        <h2>BEVERAGE</h2>
+                          <li>1.SAN MIG............................................................Php45.00</li>
+                          <li>2. FRUITY WINE.........................................................Php99.00</li>
+                          <li>3. BEER..............................................................Php150.00</li><br></br>
+                        </span>
+                    </div>
+                    <div class="menu2">
+                        <h2>FRIENDLY DRINKS</h2>
+                        <li>4.SODA............................................................Php25.00</li>
+                        <li>5. FRESH FRUIT SHAKE.........................................................Php75.00</li>
+                        <li>6. CHOCO FRAFFE..............................................................Php75.00</li>
+                        
+                    </div>
+                </div>
+                <div class="secondItem">
+                    <div class="menu3">
+                        <span class="menu3">
+                        <h2>HOT PLATES</h2>
+                        <li>7. SIZZ PORK SISIG.............................................................Php99.00</li>
+                        <li>8. SIZZ SQUID ................................................................Php99.00</li>
+                        <li>9. SIZZ BANGUS...............................................................Php99.00</li><br></br>
+                       
+                        </span>
+                    </div>
+                    <div class="menu4">
+                        <h2>GRILLED</h2>
+                        <li>10. LIEMPO..............................................................Php350.00</li>
+                        <li>11. CHICKEN INASAL..........................................................Php280.00</li>
+                        <li>12. GRILLED BANGUS.............................................................Php150.00</li>
+                        
+                    </div>
+                </div>             
+				<div class="secondItem">
+                    <div class="menu3">
+                        <span class="menu3">
+                        <h2>HOT PLATES</h2>
+                        <li>13.OVERLOAD PIZZA.............................................................Php299.00</li>
+                        <li>14. CRISPY CALAMARES..........................................................Php199.00</li>
+                        <li>15.CHICHARON BULAKLAK........................................................Php199.00</li><br></br>
+                        
+                        </span>
+                    </div>
+                    <div class="menu4">
+                        <h2>PASTA</h2>
+                        <li>16. ITALIAN SPAGHETTI......................................................Php150.00</li>
+                        <li>17. PALABOK..............................................................Php150.00</li>
+                        <li>18. CARBONARA.............................................................Php200.00</li>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+                <div class="order">
+                    <div class="label">
+                        <span class="item">Enter item:</span>
+                        <input type="text" id="label1" name="item" placeholder=""class="label1">
+                        <span class="Quant">Quantity: </span>
+                        <input type="number" id="label2" name="number" placeholder=""class="label2">
+                        <span class="TCost">Total Cost = </span>
+                        <input type="number"id="label3" name="number" value="label3" placeholder=""class="label3" disabled>
+                        <span class="amount">Enter Amount:</span>
+                        <input type="text" id="label8" name="item" placeholder=""class="label8">
+                        <span class="change">Your change =</span>
+                        <input type="text"id="label7" name="text" placeholder="" class="label7" disabled>
+                        <span class="Cust">Customers name:</span>
+                        <input type="text"id="label4" name="name" placeholder="Customers name"class="label4">
+                        <span class="addr">Address:</span>
+                        <textarea cols="70"id="label5"class="label5" rows="3"type="text" placeholder="Address" name="Address"></textarea>
+                        <span class="phone">Phone number:</span>
+                        <input type="text"id="label6" name="phone" placeholder="Phone number"class="label6">
+                        <button type="button" id="buy" value="buy" class="buy" onclick="buy()">Buy now</button>
+                        <button type="button" id="cancel" value="cancel" class="cancel" onclick="cancel()">Cancel</button>
+                        <button type="button" id="total" value="total" class="total" onclick="total()" >Total</button>
+                        <hr class="hr"/>
+                        <script src="script2.js"></script>
+                        <textarea cols="70"id="inf"class="inf" rows="3"type="text" placeholder="" name="" disabled></textarea>
+                        <p id="selected-item"></p>
+                    </div>
+                </div>
+		<footer><center>
+                  <p>&copy;  2024- Arra J Restobar Studio. All Rights Reserved! Website by Jenzel C. Gastador </p>       
+        </footer></center>
+    </body>
+</html>
