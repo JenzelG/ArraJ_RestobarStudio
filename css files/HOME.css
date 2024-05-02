@@ -165,17 +165,7 @@ footer{
 		padding:5px;
 		text-align:center;
 	  }
-@media only screen and (max-width:414px){
-	#Logo  {
-	
-        max-width: 100px;
-		border-radius: 200%;
-		position: absolute;
-		top:-5px;
-		right:570px;
-				
-	
-}
+
 			
 			 
 	
