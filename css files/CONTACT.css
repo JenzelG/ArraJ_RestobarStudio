@@ -2,24 +2,25 @@
  header {
 		   background-color:#FFCC99;
 		   color: black;
-		   padding: 2px;
+		   padding: 3px;
 		   text-align: center;
-		   font-size: 150%;
+		   font-size: 110%;
 		 }
-	    nav ul {
-		        list-style: none;
-				padding: 10px;
-				margin: 10px;
-		       }
-		nav ul li {
-				display: inline;
-				margin-right: 50px;
-				}
-		nav ul li a {
-				color: saddlebrown;
-				text-decoration: none;
-				font-weight: bold;
-				}
+nav ul {
+		list-style: none;
+		padding: 10px;
+		margin: 10px;
+		}
+nav ul li {
+			display: inline;
+			margin-right: 50px;
+		  }
+nav ul li a {
+			color: saddlebrown;
+			text-decoration: none;
+			font-weight: bold;
+			 font-size: 150%;
+			}
 					
 
 #Season{
